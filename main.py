@@ -13,4 +13,10 @@ while i<10:
         i=i+1
 else :
         print(i,"\' est plus egale a 10")
-        
+
+# Les listes
+
+fruits = ["Ananas" ,"Pomme", "Mangue","Avocat"]
+
+for f in fruits :
+    print(f)  
