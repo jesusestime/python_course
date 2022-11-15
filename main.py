@@ -20,3 +20,11 @@ fruits = ["Ananas" ,"Pomme", "Mangue","Avocat"]
 
 for f in fruits :
     print(f)  
+
+
+# Les tuples
+
+fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"]
+
+for f in fruits :
+    print(f)
