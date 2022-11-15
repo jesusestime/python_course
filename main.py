@@ -24,7 +24,15 @@ for f in fruits :
 
 # Les tuples
 
-fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"]
+fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
+
+for f in fruits :
+    print(f)
+
+# Le sets
+
+
+fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
 
 for f in fruits :
     print(f)
