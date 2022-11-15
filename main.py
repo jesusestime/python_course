@@ -6,3 +6,6 @@ elif age== 18 :
     print('vous etez un peu majeur ')
 else :
     print("vous etez majeur")
+
+
+        
