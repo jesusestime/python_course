@@ -55,14 +55,17 @@ students = {
 #     print(s)
 
 
-del students
+# del students
 
-print(students)
+# print(students)
 
-#Fonctions
+# Fonctions
 
-# def show_students(first_name,last_name):
-#     print("Hello, "+first_name+" "+last_name)
+def show_students(first_name,last_name):
+    print("Hello, "+first_name+" "+last_name)
 
-# show_students("John","Wick")
+first_name=str(input("Veuiller saisir votre nom :")) 
+last_name=str(input("Veuiller saisir votre prénom :"))
+
+show_students(first_name,last_name)
     
