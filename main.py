@@ -46,4 +46,8 @@ students = {
     "adress" : "Kamenge"
  }
 
+students["age"]=18
+
+print(students)
+
 
