@@ -60,7 +60,8 @@ students = {
 # print(students)
 
 # Fonctions
-x
+
+
 def show_students(first_name,last_name):
     print("Hello, "+first_name+" "+last_name)
 
