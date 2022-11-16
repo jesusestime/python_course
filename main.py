@@ -55,7 +55,7 @@ students = {
 #     print(s)
 
 
-students.clear()
+del students
 
 print(students)
 
