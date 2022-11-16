@@ -1,57 +1,64 @@
-age = 17
+# age = 17
 
-if age<18 :
-    print("vous etes mineur")
-elif age== 18 :
-    print('vous etez un peu majeur ')
-else :
-    print("vous etez majeur")
+# if age<18 :
+#     print("vous etes mineur")
+# elif age== 18 :
+#     print('vous etez un peu majeur ')
+# else :
+#     print("vous etez majeur")
 
-i=1
-while i<10:
-        print(i)
-        i=i+1
-else :
-        print(i,"\' est plus egale a 10")
+# i=1
+# while i<10:
+#         print(i)
+#         i=i+1
+# else :
+#         print(i,"\' est plus egale a 10")
 
-# Les listes
+# # Les listes
 
-fruits = ["Ananas" ,"Pomme", "Mangue","Avocat"]
+# fruits = ["Ananas" ,"Pomme", "Mangue","Avocat"]
 
-for f in fruits :
-    print(f)  
-
-
-# Les tuples
-
-fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
-
-for f in fruits :
-    print(f)
-
-# Le sets
+# for f in fruits :
+#     print(f)  
 
 
-fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
+# # Les tuples
 
-for f in fruits :
-    print(f)
+# fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
+
+# for f in fruits :
+#     print(f)
+
+# # Le sets
 
 
-# Dictionnaires
+# fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
+
+# for f in fruits :
+#     print(f)
+
+
+# # Dictionnaires
  
-students = {
-    "name": "John",
-    "age" : 21,
-    "adress" : "Kamenge"
- }
+# students = {
+#     "name": "John",
+#     "age" : 21,
+#     "adress" : "Kamenge"
+#  }
 
-students["age"]=18
+# students["age"]=18
 
-print(students)
-
-
-for s in students.values():
-    print(s)
+# print(students)
 
 
+# for s in students.values():
+#     print(s)
+
+
+#Fonctions
+
+def show_students(first_name,last_name):
+    print("Hello, "+first_name+" "+last_name)
+
+show_students("John","Wick")
+    
