@@ -51,3 +51,7 @@ students["age"]=18
 print(students)
 
 
+for s in students.keys():
+    print(s)
+
+
