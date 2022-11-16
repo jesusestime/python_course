@@ -38,13 +38,13 @@
 #     print(f)
 
 
-# # Dictionnaires
+# Dictionnaires
  
-# students = {
-#     "name": "John",
-#     "age" : 21,
-#     "adress" : "Kamenge"
-#  }
+students = {
+    "name": "John",
+    "age" : 21,
+    "adress" : "Kamenge"
+ }
 
 # students["age"]=18
 
@@ -55,10 +55,14 @@
 #     print(s)
 
 
+students.clear()
+
+print(students)
+
 #Fonctions
 
-def show_students(first_name,last_name):
-    print("Hello, "+first_name+" "+last_name)
+# def show_students(first_name,last_name):
+#     print("Hello, "+first_name+" "+last_name)
 
-show_students("John","Wick")
+# show_students("John","Wick")
     
