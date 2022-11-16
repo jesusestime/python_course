@@ -36,3 +36,13 @@ fruits = {"Ananas" ,"Pomme", "Mangue","Avocat"}
 
 for f in fruits :
     print(f)
+
+
+# Dictionnaires
+ 
+ students = {
+    "name": "John",
+    "age" : 21,
+    "adress" : "Kamenge"
+ }
+ 
