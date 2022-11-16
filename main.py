@@ -62,12 +62,6 @@ print(students)
 Fonctions
 
 
-<<<<<<< HEAD
-=======
-# Fonctions
-
-
->>>>>>> 56aeb5cdde33533c76968d888560535fdd503cd3
 def show_students(first_name,last_name):
     print("Hello, "+first_name+" "+last_name)
 
